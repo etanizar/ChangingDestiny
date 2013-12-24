@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package unique-identifier="BookId" version="2.0" xmlns="http://www.idpf.org/2007/opf">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<dc:title>Changing Destiny</dc:title>
+		<dc:language>en-us</dc:language>
+		<meta content="cover_image" name="cover"/>
+		<dc:creator>Ven. Master Chin Kung</dc:creator>
+		<dc:publisher>Pure Land Learning College Association</dc:publisher>
+		<dc:subject>Buddhism</dc:subject>
+		<dc:date>2002-02-15</dc:date>
+		<dc:description>Changing Destiny: Liao-Fan’s Four Lessons—A Commentary by Venerable Master Chin Kung</dc:description>
+	</metadata>
+
+	<manifest>
+		<!-- cover image [mandatory] -->
+		<item href="images/cover.jpg" id="cover_image" media-type="image/jpeg"/>
+
+		<!-- HTML content files [mandatory] -->
+		<item href="toc.html" id="toc" media-type="application/xhtml+xml"/>
+		<item href="trans_notes.html" id="trans_notes" media-type="application/xhtml+xml"/>
+		<item href="intro.html" id="intro" media-type="application/xhtml+xml"/>
+		<item href="lesson-01.html" id="lesson-01" media-type="application/xhtml+xml"/>
+		<item href="lesson-02.html" id="lesson-02" media-type="application/xhtml+xml"/>
+		<item href="lesson-03.html" id="lesson-03" media-type="application/xhtml+xml"/>
+		<item href="lesson-04.html" id="lesson-04" media-type="application/xhtml+xml"/>
+		<item href="appendix.html" id="appendix" media-type="application/xhtml+xml"/>
+		<item href="ten-recitation-method.html" id="ten-recitation-method" media-type="application/xhtml+xml"/>
+		<item href="notes.html" id="notes" media-type="application/xhtml+xml"/>
+		<item href="glossary.html" id="glossary" media-type="application/xhtml+xml"/>
+		
+		<!-- table of contents [mandatory] -->
+		<item href="chg-dest.ncx" id="table_of_contents" media-type="application/x-dtbncx+xml"/>
+	</manifest>
+
+	<spine toc="table_of_contents">
+		<itemref idref="toc"/>
+		<itemref idref="trans_notes"/>
+		<itemref idref="intro"/>
+		<itemref idref="lesson-01"/>
+		<itemref idref="lesson-02"/>
+		<itemref idref="lesson-03"/>
+		<itemref idref="lesson-04"/>
+		<itemref idref="appendix"/>
+		<itemref idref="ten-recitation-method"/>
+		<itemref idref="notes"/>
+		<itemref idref="glossary"/>
+	</spine>
+
+	<guide>
+		<reference href="toc.html" title="Table of Contents" type="toc"/>
+		<reference href="intro.html" title="Introduction" type="text"/>
+	</guide>
+</package>

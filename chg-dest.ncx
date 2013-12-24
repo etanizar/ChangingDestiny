@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx
+PUBLIC ’-//NISO//DTD ncx 2005-1//EN’
+’http://www.daisy.org/z3986/2005/ncx-2005-1.dtd’>
+<!--
+	For a detailed description of NCX usage please refer to:
+	http://www.idpf.org/2007/opf/OPF_2.0_final_spec.html#Section2.4.1
+-->
+<ncx version="2005-1" xml:lang="en-US" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+	<head>
+		<meta content="BookId" name="dtb:uid"/>
+		<meta content="2" name="dtb:depth"/>
+		<meta content="0" name="dtb:totalPageCount"/>
+		<meta content="0" name="dtb:maxPageNumber"/>
+	</head>
+	<docTitle>
+		<text>Changing Destiny</text>
+	</docTitle>
+	<docAuthor>
+		<text>Ven. Master Chin Kung</text>
+	</docAuthor>
+	<navMap>
+		<navPoint class="toc" id="toc" playOrder="1">
+			<navLabel>
+				<text>Table of Contents</text>
+			</navLabel>
+			<content src="toc.html"/>
+		</navPoint>
+		<navPoint class="chapter" id="trans_notes" playOrder="2">
+			<navLabel>
+				<text>Translator’s Notes</text>
+			</navLabel>
+			<content src="trans_notes.html"/>
+		</navPoint>
+		<navPoint class="chapter" id="intro" playOrder="3">
+			<navLabel>
+				<text>Introduction</text>
+			</navLabel>
+			<content src="intro.html"/>
+		</navPoint>
+		<navPoint class="chapter" id="lesson-01" playOrder="4">
+			<navLabel>
+				<text>The First Lesson: Learning to Change Destiny</text>
+			</navLabel>
+			<content src="lesson-01.html"/>
+			<navPoint class="section" id="lesson-01-01" playOrder="5">
+				<navLabel>
+					<text>Mr. Kong’s Accurate Predictions</text>
+				</navLabel>
+				<content src="lesson-01.html#01"/>
+			</navPoint>
+			<navPoint class="section" id="lesson-01-02" playOrder="6">
+				<navLabel>
+					<text>Master Yungu’s Advice on Changing Destiny</text>
+				</navLabel>
+				<content src="lesson-01.html#02"/>
+			</navPoint>
+		</navPoint>
+		<navPoint class="chapter" id="lesson-02" playOrder="7">
+			<navLabel>
+				<text>The Second Lesson: Ways to Reform</text>
+			</navLabel>
+			<content src="lesson-02.html"/>
+			<navPoint class="section" id="lesson-02-01" playOrder="8">
+				<navLabel>
+					<text>The Reasons to Reform</text>
+				</navLabel>
+				<content src="lesson-02.html#01"/>
+			</navPoint>
+			<navPoint class="section" id="lesson-02-02" playOrder="9">
+				<navLabel>
+					<text>The Ways to Reform</text>
+				</navLabel>
+				<content src="lesson-02.html#02"/>
+			</navPoint>
+			<navPoint class="section" id="lesson-02-03" playOrder="10">
+				<navLabel>
+					<text>Three Methods of Practice in Reforming</text>
+				</navLabel>
+				<content src="lesson-02.html#03"/>
+			</navPoint>
+			<navPoint class="section" id="lesson-02-04" playOrder="11">
+				<navLabel>
+					<text>The Desired Result of Reform</text>
+				</navLabel>
+				<content src="lesson-02.html#04"/>
+			</navPoint>
+		</navPoint>
+		<navPoint class="chapter" id="lesson-03" playOrder="12">
+			<navLabel>
+				<text>The Third Lesson: The Ways to Cultivate Goodness</text>
+			</navLabel>
+			<content src="lesson-03.html"/>
+			<navPoint class="section" id="lesson-03-01" playOrder="13">
+				<navLabel>
+					<text>A Family that Accumulates Good Deeds Will Have Abundant Prosperity</text>
+				</navLabel>
+				<content src="lesson-03.html#01"/>
+			</navPoint>
+			<navPoint class="section" id="lesson-03-02" playOrder="14">
+				<navLabel>
+					<text>Understanding Goodness</text>
+				</navLabel>
+				<content src="lesson-03.html#02"/>
+			</navPoint>
+			<navPoint class="section" id="lesson-03-03" playOrder="15">
+				<navLabel>
+					<text>Practicing the Ten Good Deeds When Conditions Arise</text>
+				</navLabel>
+				<content src="lesson-03.html#03"/>
+			</navPoint>
+		</navPoint>
+		<navPoint class="chapter" id="lesson-04" playOrder="16">
+			<navLabel>
+				<text>The Fourth Lesson: The Benefits of The Virtue Of Humility</text>
+			</navLabel>
+			<content src="lesson-04.html"/>
+			<navPoint class="section" id="lesson-04-01" playOrder="17">
+				<navLabel>
+					<text>Arrogance Invites Adversity While Humility Gains Benefit</text>
+				</navLabel>
+				<content src="lesson-04.html#01"/>
+			</navPoint>
+			<navPoint class="section" id="lesson-04-02" playOrder="18">
+				<navLabel>
+					<text>Humility and Modesty are the Foundation for Good Fortune</text>
+				</navLabel>
+				<content src="lesson-04.html#02"/>
+			</navPoint>
+		</navPoint>
+		<navPoint class="chapter" id="appendix" playOrder="19">
+			<navLabel>
+				<text>Appendix: Liaofan’s Four Lessons</text>
+			</navLabel>
+			<content src="appendix.html"/>
+		</navPoint>
+		<navPoint class="chapter" id="ten-recitation-method" playOrder="20">
+			<navLabel>
+				<text>The Ten-Recitation Method</text>
+			</navLabel>
+			<content src="ten-recitation-method.html"/>
+		</navPoint>
+		<navPoint class="chapter" id="notes" playOrder="21">
+			<navLabel>
+				<text>Notes</text>
+			</navLabel>
+			<content src="notes.html"/>
+		</navPoint>
+		<navPoint class="chapter" id="glossary" playOrder="23">
+			<navLabel>
+				<text>Glossary</text>
+			</navLabel>
+			<content src="glossary.html"/>
+		</navPoint>
+	</navMap>
+</ncx>
